@@ -1,0 +1,25 @@
+/*  C++ Program to Find Quotient and Remainder of 2 numbers  */
+
+#include<iostream>
+using namespace std;
+
+int main()
+
+{
+    int divisior,dividend,Quotient,remainder;
+    
+    cout<<"\n Enter the value of dividend = ";
+    cin>>dividend;
+    
+    cout<<"\n Enter the value of divisior = ";
+    cin>>divisior;
+    
+    Quotient=dividend/divisior;
+    
+    remainder=dividend%divisior;
+    
+    cout<<"\n Quotient  = "<<Quotient;
+    cout<<"\n Remainder ="<<remainder;
+    
+    return 0;
+}
