@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class student{
+    
+    public:
+    int no;
+    string name;
+    float salary;
+};
+
+int main()
+{
+    student s1;
+    s1.no=12;
+    s1.name="Aditya";
+    s1.salary=500000.50;
+    cout<<s1.no<<endl;
+    cout<<s1.name<<endl;
+    cout<<s1.salary<<endl;
+    
+    return 0;
+    
+}
